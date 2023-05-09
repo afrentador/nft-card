@@ -1,0 +1,78 @@
+*, body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #0D1A2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diseno{
+    height: 100vh;
+    background-image: url(/design/desktop-design.jpg);
+}
+
+.main{
+    width: 355px;
+    height: 595px;
+    padding: 25px;
+    background-color: #14273E;
+    border-radius: 20px;
+}
+.main_imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_imagen-card{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(/images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.title{
+    padding-top: 25px;
+}
+.title h2{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bold;
+}
+.title p{
+    line-height: 30px;
+    color: #4B627C;
+    font-weight: 900;
+
+}
+.icon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4B627C;
+}
+.icon_eth{
+    display: flex;
+    color: #2FE8EC;
+    font-weight: bold;
+    gap: 10px;
+    
+}
+.icon_time{
+    display: flex;
+    color: #88A3C7;
+    gap: 10px;
+}
+hr{
+    border: 1px solid white;
+}
