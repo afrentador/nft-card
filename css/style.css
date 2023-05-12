@@ -35,6 +35,15 @@ body{
     background-repeat: no-repeat;
     cursor: pointer;
 }
+.main_image-card:hover:after{
+    display: grid;
+    place-items:center;
+    border-radius: 20px;
+    content: url(/images/icon-view.svg);
+    background-color: #2fe9ec81;
+    width: 300px;
+    height: 300px;
+}
 .main_title{
     padding-top: 25px;
 }
@@ -44,6 +53,9 @@ body{
     color:#fff;
     font-weight: bold;
     cursor: pointer;
+}
+.main_title h2:hover{
+    color:#2FE8EC;
 }
 .main_title p{
     line-height: 30px;
@@ -89,4 +101,7 @@ body{
     font-size: 14px;
     text-transform: capitalize;
     cursor: pointer;
+}
+.main_avatar-name:hover{
+    color:#2FE8EC;    
 }
